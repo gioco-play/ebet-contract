@@ -26,12 +26,4 @@ interface EBETServiceInterface {
      * @return mixed
      */
     function gameDetail(string $op_code, string $account, string $bet_id);
-
-    /**
-     * 訂單檢核
-     * @param string $op_code
-     * @param string $order_no
-     * @return mixed
-     */
-    function orderFailCheck(string $op_code, string $order_no);
 }
